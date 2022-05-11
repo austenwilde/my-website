@@ -15,17 +15,16 @@ const Footer = () => {
           {/* <MainFooter> */}
           <Row>
             <Col>
-            <p>
-              &copy;{new Date().getFullYear()} Powered by Austen Wilde 
-            </p>
+              <p>
+                &copy;{new Date().getFullYear()} Powered by Austen Wilde 
+              </p>
             </Col>
             <Col>
-            <p>Your Website Could Look Like This!</p>
+              <p>Your Website Could Look Like This!</p>
             </Col>
             <Col>
-            <Link to='/messages'>
-            
-            <Button variant="outline-dark">Contact Me</Button>
+              <Link to='/messages'>            
+                <Button variant="outline-dark">Contact Me</Button>
               </Link>
             </Col>
           </Row>
